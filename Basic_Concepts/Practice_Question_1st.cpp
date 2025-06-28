@@ -63,13 +63,13 @@ int main(){
 }*/
 
 //6. temperature in celsius input and given output in fahrenheit.
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 int main(){
     int temp;
     cout<<"Enter temperature in celsius: ";
     cin>>temp;
-    float f=(temp+32)*5/9;
+    float f=(temp*9/5)+32;
     cout<<"Temperature in Fahrenheit: "<<f;
-}*/
+}
 
